@@ -11,7 +11,7 @@ const LoginPage = () => (
   <Container>
     <LoginSection>
       <Title>Login</Title>
-      <Greetings>Seja bem vindo de volta!</Greetings>
+      <Greetings>Seja bem-vindo de volta!</Greetings>
 
       <Input label="Email" name="Email" placeholder="nome@dominio.com" />
       <Input label="Senha" name="Senha" placeholder="********" />

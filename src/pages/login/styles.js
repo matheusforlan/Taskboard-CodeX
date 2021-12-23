@@ -81,7 +81,7 @@ export const Title = styled.h1`
 export const Greetings = styled.p`
   font-size: 1.8rem;
   color: ${theme.colors.blue[400]};
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.5rem;
 `;
 
 export const DecorativeSection = styled.section`
