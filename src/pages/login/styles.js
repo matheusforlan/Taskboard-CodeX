@@ -84,7 +84,7 @@ export const Greetings = styled.p`
   margin-bottom: 3.5rem;
 `;
 
-export const DecorativeSection = styled.section`
+export const DecorativeSectionLogin = styled.section`
   height: 100%;
   border-radius: 0 3.2rem 3.2rem 0;
   position: relative;

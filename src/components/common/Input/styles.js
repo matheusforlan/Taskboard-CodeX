@@ -5,16 +5,16 @@ import theme from '../../../styles/theme';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
   label {
     margin-bottom: 0.8rem;
     color: ${theme.colors.blue[400]};
     font-weight: 500;
-  }
+  } 
 `;
 
 export const BaseInput = styled.input`
-  padding: 1rem;
+  padding: 1rem; 
   border-radius: 0.7rem;
   border: 1px solid ${theme.colors.blue[400]};
   outline: none;
