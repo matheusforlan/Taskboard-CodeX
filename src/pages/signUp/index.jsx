@@ -26,7 +26,7 @@ const signUpPage = () => (
       <Input label="Sobrenome" name="Sobrenome"/>
       </SideBySideInput>
 
-      <Input label="Email" name="Email" placeholder="nome@dominio.com" />
+      <Input label="E-mail" name="E-mail" placeholder="nome@dominio.com" />
       
       <SideBySideInput>
       <Input label="Senha" name="Senha" placeholder="********" />
