@@ -72,7 +72,7 @@ export const TasksSection = styled.section`
   }
 `;
 
-export const SideBySideInput = styled.section`
+export const SideBySideInput = styled.div`
   height: 100%;
   padding: 0rem;
   border-radius: 0 3.2rem 3.2rem 0;
@@ -109,13 +109,21 @@ export const SideBySideInput = styled.section`
 
 `;
 
-export const SideBySideButtons = styled.section`
+export const SideBySideButtons = styled.div`
   
   position: relative;
   display: flex;
   flex-direction: row;
-  left: 5rem;
+  left: 4rem;
   
+
+`;
+
+export const SideBySideOrder = styled.div`
+  
+  position: relative;
+  display: flex;
+  flex-direction: row;
 
 `;
 
@@ -129,6 +137,29 @@ export const Buttons = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+
+`;
+
+export const Select = styled.section`
+  
+position: absolute;
+width: 222.31px;
+height: 34px;
+left: 70.85px;
+top: 0px;
+
+background: #EFEEF9;
+border-radius: 15px;
+
+`;
+
+export const PrioritySection= styled.section`
+  
+  position: absolute;
+  top:50px;
+  width: 125px;
+  left: 165px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 `;
 
@@ -151,6 +182,13 @@ export const Center = styled.div`
 `;
 
 export const Title = styled.h1`
+
+  position: absolute;
+  width: 136px;
+  height: 47px;
+  left: 396px;
+  top: 76px;
+
   font-size: 4rem;
   color: ${theme.colors.blue[700]};
 `;
@@ -168,13 +206,20 @@ export const Name = styled.h1`
 `;
 
 export const Greetings = styled.p`
+
+  position: absolute;
+  width: 49.6rem;
+  height: 4.2rem;
+  left: 39.6rem;
+  top: 13.7rem;
+
   font-size: 1.8rem;
   color: ${theme.colors.blue[400]};
   margin-bottom: 1.5rem;
-  width: 49.6rem;
+  
 `;
 
-export const Circle = styled.p`
+export const Circle = styled.div`
 position: absolute;
 width: 70px;
 height: 70px;
@@ -187,14 +232,38 @@ border-radius: 0.2rem;
 
 `;
 
-export const Order = styled.p`
+export const Order = styled.div`
+
 position: absolute;
-width: 295.3px;
-height: 79px;
-left: 970px;
-top: 83px;
+width: 20.53rem;
+height: 7.9rem;
+left: 92rem;
+top: 8.3rem;
 
+`;
 
+export const Tasks = styled.div`
+
+position: absolute;
+width: 870.14px;
+height: 451px;
+left: 395px;
+top: 220px;
+justify-content: space-evenly;
+display: flex;
+flex-direction: row;
+
+`;
+
+export const VerticalTasks = styled.div`
+
+position: relative;
+width: 870.14px;
+height: 361px;
+justify-content: space-evenly;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 
 `;
 
@@ -205,6 +274,7 @@ width: 6.4rem;
 height: 5.25rem;
 font-size: 1.8rem;
 color: ${theme.colors.blue[400]};
+top: 0.6rem;
 
 `;
 

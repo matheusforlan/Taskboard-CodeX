@@ -1,5 +1,5 @@
 import { Container } from './styles';
 
-const Button = ({ children, ...rest }) => <Container {...rest}>{children}</Container>;
+const ButtonTasks = ({ children, ...rest }) => <Container {...rest}>{children}</Container>;
 
-export default Button;
+export default ButtonTasks;

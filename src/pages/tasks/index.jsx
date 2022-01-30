@@ -4,8 +4,11 @@ import Link from 'next/link';
 import Input from '../../components/common/Input';
 import Button from '../../components/common/Button';
 import ButtonTasks from '../../components/common/ButtonTasks';
+import SelectButton from '../../components/common/SelectButton';
+import TaskButton from '../../components/common/TaskButton';
 import { Container, SignUpSection, Title, Greetings, Center, ProfileSection, 
-  SideBySideInput, Circle, Name, Buttons, SideBySideButtons, TasksSection, Order, OrderName} from './styles';
+  SideBySideInput, Circle, Name, Buttons, SideBySideButtons, TasksSection, Order,
+   OrderName, SideBySideOrder, Select, PrioritySection, Tasks, VerticalTasks} from './styles';
 import AbstractSquare from '../../assets/abstract-squares.svg';
 import ManWithScreens from '../../assets/man-with-screens.svg';
 import ViniPicture from '../../assets/vini-picture.svg';
@@ -54,27 +57,54 @@ const tasksPage = () => (
         ou edite as já existentes.</Greetings>
 
       <Order>
-       <OrderName> Ordenar </OrderName> 
+       
+       <SideBySideOrder> 
+        <OrderName> Ordenar </OrderName>
+        <Select> </Select>
+       </SideBySideOrder>
+
+        
+        <PrioritySection>
+
+        <SelectButton>
+          <option value = "masculino">Alta</option>
+          <option value = "masculino">Baixa</option>
+        </SelectButton>
+        </PrioritySection>     
+
       </Order>
-      
-      <SideBySideInput>
-      <Input label="Nome" name="Nome" />
-      <Input label="Sobrenome" name="Sobrenome"/>
-      </SideBySideInput>
 
-      <Input label="E-mail" name="E-mail" placeholder="nome@dominio.com" />
-      
-      <SideBySideInput>
-      <Input label="Senha" name="Senha" placeholder="********" />
-      <Input label="Confirmar Senha" name = "Confirmar Senha" placeholder="********" />
-      </SideBySideInput>
 
-      <Button>Registrar</Button>
+      <Tasks>
+        <VerticalTasks>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+        </VerticalTasks>
 
-      <Center>
-        <span>Já tem uma conta?</span>
-        <Link href="/login">Faça login</Link>
-      </Center>
+        <VerticalTasks>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+        </VerticalTasks>
+
+        <VerticalTasks>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+          <TaskButton> </TaskButton>
+        </VerticalTasks>
+
+
+        
+      </Tasks>
+
+
 
     </TasksSection>
     
